@@ -6,6 +6,8 @@ php:
 before_script:
   - composer self-update
   - composer install
+after_script:
+  - vendor/bin/test-reporter
 script:
   - ./phpunit.sh
 notfications:
@@ -28,3 +30,6 @@ notfications:
     notify: true
     on_success: always
     on_failure: always
+addons:
+  code_climate:
+    repo_token: 6fecc63f321bc0db45f9bac1194f4deeebe8b1a32dedc722e83ae23a9730f268
