@@ -9,3 +9,8 @@ before_script:
   - composer install
 script:
   - ./phpunit.sh
+notfications:
+  email:
+    - matthew@matthewsetter.com
+  on_success: always
+  on_failure: always

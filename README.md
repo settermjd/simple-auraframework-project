@@ -34,7 +34,7 @@ This will create the project skeleton and install all of the necessary packages.
 
 ### Tests
 
-[![Build Status](https://travis-ci.org/auraphp/Aura.Framework_Project.png)](https://travis-ci.org/auraphp/Aura.Framework_Project)
+[![Build Status](https://travis-ci.org/settermjd/simple-auraframework-project.svg)](https://travis-ci.org/settermjd/simple-auraframework-project)
 
 To run the unit tests at the command line, issue `./phpunit.sh` at the package root. This requires [PHPUnit](http://phpunit.de/) to be available as `phpunit`.
 
