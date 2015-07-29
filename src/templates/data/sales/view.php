@@ -33,6 +33,15 @@
                     }
                     ?>
                     </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="6">
+                                <?php
+                                    printf("Total Records: %d", count($this->results));
+                                ?>
+                            </td>
+                        </tr>
+                    </tfoot>
                 </table>
             </div>
         </div>
