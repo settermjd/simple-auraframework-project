@@ -12,10 +12,19 @@ notfications:
   email:
     recipients:
       - matthew@matthewsetter.com
-  irc: "irc.freenode.net#conetix-blog"
+    on_success: always
+    on_failure: always
+  irc: 
+    channels:
+      - "irc.freenode.net#conetix-blog"
+    use_notice: true
+    on_success: always
+    on_failure: always
+    skip_join: true
   hipchat: 
     rooms:
       - NRCYMdcSV1Z2jMFqhtGnFrasIOrKet9XYhPMJNZA@Matthewsetter
     format: html
-  on_success: always
-  on_failure: always
+    notify: true
+    on_success: always
+    on_failure: always
