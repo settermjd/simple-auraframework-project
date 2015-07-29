@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1438177541">
-  <project timestamp="1438177541">
+<coverage generated="1438178343">
+  <project timestamp="1438178343">
     <package name="Composer\Autoload">
       <file name="/Users/mattsetter/Workspace/settermjd/PHP/aura-project/vendor/composer/ClassLoader.php">
         <class name="ClassLoader" namespace="Composer\Autoload">
