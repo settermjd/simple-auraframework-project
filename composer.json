@@ -1,0 +1,45 @@
+{
+    "name": "aura/framework-project",
+    "type": "project",
+    "description": "A minimal web+cli framework built from Aura v2 packages",
+    "keywords": [
+        "framework"
+    ],
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "Aura.Framework_Project Contributors",
+            "homepage": "https://github.com/auraphp/Aura.Framework_Project/contributors"
+        }
+    ],
+    "require": {
+        "aura/cli-kernel": "~2.0",
+        "aura/web-kernel": "~2.0",
+        "monolog/monolog": "~1.0",
+        "foa/html-view-bundle": "2.*",
+        "aura/sql": "^2.4"
+    },
+    "autoload": {
+      "psr-4": {
+        "": "src/",
+        "Aura\\Framework_Project\\_Config\\": "config/",
+        "DatabaseObjects\\": "src/DatabaseObjects/"
+      }
+    },
+    "extra": {
+        "aura": {
+            "type": "project",
+            "config": {
+                "common": "Aura\\Framework_Project\\_Config\\Common",
+                "dev": "Aura\\Framework_Project\\_Config\\Dev",
+                "test": "Aura\\Framework_Project\\_Config\\Test",
+                "prod": "Aura\\Framework_Project\\_Config\\Prod"
+            }
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Aura\\Framework_Project\\": "tests/"
+        }
+    }
+}
