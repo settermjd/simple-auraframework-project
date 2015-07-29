@@ -12,5 +12,6 @@ notfications:
   email:
     recipients:
       - matthew@matthewsetter.com
+  irc: "chat.freenode.net#conetix-blog"
   on_success: always
   on_failure: always
