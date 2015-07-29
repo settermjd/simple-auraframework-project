@@ -12,6 +12,10 @@ notfications:
   email:
     recipients:
       - matthew@matthewsetter.com
-  irc: "chat.freenode.net#conetix-blog"
+  irc: "irc.freenode.net#conetix-blog"
+  hipchat: 
+    rooms:
+      - NRCYMdcSV1Z2jMFqhtGnFrasIOrKet9XYhPMJNZA@Matthewsetter
+    format: html
   on_success: always
   on_failure: always
