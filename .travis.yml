@@ -3,7 +3,6 @@ php:
   - 5.4
   - 5.5
   - 5.6
-  - 7
 before_script:
   - composer self-update
   - composer install
@@ -11,6 +10,7 @@ script:
   - ./phpunit.sh
 notfications:
   email:
-    - matthew@matthewsetter.com
+    recipients:
+      - matthew@matthewsetter.com
   on_success: always
   on_failure: always
