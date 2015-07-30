@@ -11,3 +11,7 @@
 This project, based off of the [Aura.Framework_Project](https://github.com/auraphp/Aura.Web_Project#getting-started), is a simple, example application designed in part to learn how the framework and [Aura](http://www.auraphp.com) work, and also to form the basis for a series of posts for the Conetix blog. In the project, you'll find a series of things, from working with Aura to integrating it with a number of services, including [Travis CI](https://travis-ci.org) and [CodeClimate](https://codeclimate.com).
 
 As the project grows, assuming it does, you'll find more information here regarding what it's doing, who it's working with, and links to those respective projects.
+
+## Maintainer
+
+This project is maintained by [Matthew Setter](http://www.matthewsetter.com).
